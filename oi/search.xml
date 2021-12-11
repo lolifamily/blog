@@ -1635,22 +1635,22 @@
     
     
     <entry>
-      <title>tags</title>
-      <link href="/oi/tags/index.html"/>
-      <url>/oi/tags/index.html</url>
+      <title>friends</title>
+      <link href="/oi/friends/index.html"/>
+      <url>/oi/friends/index.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<ul><li><a href="https://oi.men.ci/">menci</a></li><li><a href="http://hzwer.com/">hzwer</a></li><li><a href="https://blog.bill.moe/">yangming</a></li></ul>]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>friends</title>
-      <link href="/oi/friends/index.html"/>
-      <url>/oi/friends/index.html</url>
+      <title>tags</title>
+      <link href="/oi/tags/index.html"/>
+      <url>/oi/tags/index.html</url>
       
-        <content type="html"><![CDATA[<ul><li><a href="https://oi.men.ci/">menci</a></li><li><a href="http://hzwer.com/">hzwer</a></li><li><a href="https://blog.bill.moe/">yangming</a></li></ul>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
