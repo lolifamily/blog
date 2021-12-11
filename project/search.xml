@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>查看一个程序是 64 位还是 32 位</title>
+      <link href="/project/post/2018/08/11/see-if-a-program-is-64bit-or-32bit/"/>
+      <url>/project/post/2018/08/11/see-if-a-program-is-64bit-or-32bit/</url>
+      
+        <content type="html"><![CDATA[<p>在程序运行的时候推荐使用任务管理器查看进程后是否带有 *32（ Windows10 就看是否有”32 位”）<br>如果是一瞬间就执行完毕（转瞬即逝）的程序，就采取以下办法：</p><ul><li>简化颜色模式：兼容性中降低色彩和分辨率的选项可勾选的就是 32 位程序，否则是 64 位程序</li><li>查看文件头法：用二进制软件打开程序在文件头中能找到 <code>PE..d</code> 的是 64 位，<code>PE..L</code> 的是 32 位</li></ul>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>下载 Google Chrome 离线安装包</title>
+      <link href="/project/post/2018/08/11/download-google-chrome-standalone-package/"/>
+      <url>/project/post/2018/08/11/download-google-chrome-standalone-package/</url>
+      
+        <content type="html"><![CDATA[<p>Chrome 浏览器主页：<a href="https://www.google.cn/chrome/">https://www.google.cn/chrome/</a><br>参数:<code>standalone=1</code> 指离线安装包，<code>platform=win64</code> 指 64 位 Windows 版本。<br>windows 64 位地址：<a href="https://www.google.cn/chrome/?standalone=1&platform=win64">https://www.google.cn/chrome/?standalone=1&amp;platform=win64</a><br>windows 32 位地址：<a href="https://www.google.cn/chrome/?standalone=1&platform=win">https://www.google.cn/chrome/?standalone=1&amp;platform=win</a><br>Linux 地址（只支持 64 位）：<a href="https://www.google.cn/chrome/?standalone=1&platform=linux">https://www.google.cn/chrome/?standalone=1&amp;platform=linux</a><br>Mac 地址：<a href="https://www.google.cn/chrome/?standalone=1&platform=mac">https://www.google.cn/chrome/?standalone=1&amp;platform=mac</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>concise</title>
+      <link href="/project/post/2018/06/23/concise/"/>
+      <url>/project/post/2018/06/23/concise/</url>
+      
+        <content type="html"><![CDATA[<p>You can download my custom hexo theme here.</p><span id="more"></span><p><a href="/upload/concise.tar.gz">concise</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> concise </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>MathJax Configuration</title>
+      <link href="/project/post/2018/06/23/mathjax/"/>
+      <url>/project/post/2018/06/23/mathjax/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Convert-from-Mathjax-v2-to-v3"><a href="#Convert-from-Mathjax-v2-to-v3" class="headerlink" title="Convert from Mathjax v2 to v3"></a>Convert from Mathjax v2 to v3</h2><p><a href="https://mathjax.github.io/MathJax-demos-web/convert-configuration/convert-configuration.html">https://mathjax.github.io/MathJax-demos-web/convert-configuration/convert-configuration.html</a></p><span id="more"></span><h2 id="My-MathJax-Configuration"><a href="#My-MathJax-Configuration" class="headerlink" title="My MathJax Configuration"></a>My MathJax Configuration</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">window.MathJax = &#123;</span><br><span class="line">    tex: &#123;</span><br><span class="line">        inlineMath: [[&quot;$&quot;, &quot;$&quot;], [&quot;$$$&quot;, &quot;$$$&quot;]],</span><br><span class="line">        displayMath: [[&quot;$$&quot;, &quot;$$&quot;], [&quot;$$$$$$&quot;, &quot;$$$$$$&quot;]],</span><br><span class="line">        processEscapes: !0,</span><br><span class="line">        autoload: &#123;</span><br><span class="line">            color: [],</span><br><span class="line">            colorV2: [&quot;color&quot;]</span><br><span class="line">        &#125;,</span><br><span class="line">        packages: &#123;</span><br><span class="line">            &quot;[+]&quot;: [&quot;noerrors&quot;]</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    options: &#123;</span><br><span class="line">        skipHtmlTags: [&quot;script&quot;, &quot;noscript&quot;, &quot;style&quot;, &quot;textarea&quot;, &quot;pre&quot;, &quot;code&quot;],</span><br><span class="line">        ignoreHtmlClass: &quot;tex2jax_ignore&quot;,</span><br><span class="line">        processHtmlClass: &quot;tex2jax_process&quot;</span><br><span class="line">    &#125;,</span><br><span class="line">    loader: &#123;</span><br><span class="line">        load: [&quot;[tex]/noerrors&quot;]</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>welcome</title>
+      <link href="/project/post/2018/04/26/welcome/"/>
+      <url>/project/post/2018/04/26/welcome/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+    
+    
+    <entry>
+      <title>403</title>
+      <link href="/project/403.html"/>
+      <url>/project/403.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="想偷窥我的秘密吗？"><a href="#想偷窥我的秘密吗？" class="headerlink" title="想偷窥我的秘密吗？"></a>想偷窥我的秘密吗？</h2>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>404</title>
+      <link href="/project/404.html"/>
+      <url>/project/404.html</url>
+      
+        <content type="html"><![CDATA[<h2 id="你是怎么进来的？"><a href="#你是怎么进来的？" class="headerlink" title="你是怎么进来的？"></a>你是怎么进来的？</h2>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>categories</title>
+      <link href="/project/categories/index.html"/>
+      <url>/project/categories/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>friends</title>
+      <link href="/project/friends/index.html"/>
+      <url>/project/friends/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>tags</title>
+      <link href="/project/tags/index.html"/>
+      <url>/project/tags/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+  
+</search>

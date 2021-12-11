@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://blog.lolifamily.js.org/project/post/2018/08/11/download-google-chrome-standalone-package/</loc>
+    
+    <lastmod>2021-12-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.lolifamily.js.org/project/post/2018/06/23/concise/</loc>
+    
+    <lastmod>2021-12-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.lolifamily.js.org/project/post/2018/06/23/mathjax/</loc>
+    
+    <lastmod>2021-12-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.lolifamily.js.org/project/post/2018/08/11/see-if-a-program-is-64bit-or-32bit/</loc>
+    
+    <lastmod>2021-12-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.lolifamily.js.org/project/categories/</loc>
+    
+    <lastmod>2021-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.lolifamily.js.org/project/friends/</loc>
+    
+    <lastmod>2021-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.lolifamily.js.org/project/tags/</loc>
+    
+    <lastmod>2021-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.lolifamily.js.org/project/post/2018/04/26/welcome/</loc>
+    
+    <lastmod>2021-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.lolifamily.js.org/project/403.html</loc>
+    
+    <lastmod>2021-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.lolifamily.js.org/project/404.html</loc>
+    
+    <lastmod>2021-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  <url>
+    <loc>https://blog.lolifamily.js.org/project</loc>
+    <lastmod>2021-12-11</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://blog.lolifamily.js.org/project/tags/concise/</loc>
+    <lastmod>2021-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://blog.lolifamily.js.org/project/categories/hexo/</loc>
+    <lastmod>2021-12-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+</urlset>

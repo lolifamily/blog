@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>loli&#39;s project blog</title>
+  
+  
+  <link href="https://blog.lolifamily.js.org/project/atom.xml" rel="self"/>
+  
+  <link href="https://blog.lolifamily.js.org/project/"/>
+  <updated>2021-12-11T08:07:15.660Z</updated>
+  <id>https://blog.lolifamily.js.org/project/</id>
+  
+  <author>
+    <name>lolifamily</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>查看一个程序是 64 位还是 32 位</title>
+    <link href="https://blog.lolifamily.js.org/project/post/2018/08/11/see-if-a-program-is-64bit-or-32bit/"/>
+    <id>https://blog.lolifamily.js.org/project/post/2018/08/11/see-if-a-program-is-64bit-or-32bit/</id>
+    <published>2018-08-11T10:40:00.000Z</published>
+    <updated>2021-12-11T08:07:15.660Z</updated>
+    
+    <content type="html"><![CDATA[<p>在程序运行的时候推荐使用任务管理器查看进程后是否带有 *32（ Windows10 就看是否有”32 位”）<br>如果是一瞬间就执行完毕（转瞬即逝）的程序，就采取以下办法：</p><ul><li>简化颜色模式：兼容性中降低色彩和分辨率的选项可勾选的就是 32 位程序，否则是 64 位程序</li><li>查看文件头法：用二进制软件打开程序在文件头中能找到 <code>PE..d</code> 的是 64 位，<code>PE..L</code> 的是 32 位</li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;在程序运行的时候推荐使用任务管理器查看进程后是否带有 *32（ Windows10 就看是否有”32 位”）&lt;br&gt;如果是一瞬间就执行完毕（转瞬即逝）的程序，就采取以下办法：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;简化颜色模式：兼容性中降低色彩和分辨率的选项可勾选的就是 32 位程序，</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>下载 Google Chrome 离线安装包</title>
+    <link href="https://blog.lolifamily.js.org/project/post/2018/08/11/download-google-chrome-standalone-package/"/>
+    <id>https://blog.lolifamily.js.org/project/post/2018/08/11/download-google-chrome-standalone-package/</id>
+    <published>2018-08-11T10:39:37.000Z</published>
+    <updated>2021-12-11T08:13:54.993Z</updated>
+    
+    <content type="html"><![CDATA[<p>Chrome 浏览器主页：<a href="https://www.google.cn/chrome/">https://www.google.cn/chrome/</a><br>参数:<code>standalone=1</code> 指离线安装包，<code>platform=win64</code> 指 64 位 Windows 版本。<br>windows 64 位地址：<a href="https://www.google.cn/chrome/?standalone=1&platform=win64">https://www.google.cn/chrome/?standalone=1&amp;platform=win64</a><br>windows 32 位地址：<a href="https://www.google.cn/chrome/?standalone=1&platform=win">https://www.google.cn/chrome/?standalone=1&amp;platform=win</a><br>Linux 地址（只支持 64 位）：<a href="https://www.google.cn/chrome/?standalone=1&platform=linux">https://www.google.cn/chrome/?standalone=1&amp;platform=linux</a><br>Mac 地址：<a href="https://www.google.cn/chrome/?standalone=1&platform=mac">https://www.google.cn/chrome/?standalone=1&amp;platform=mac</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Chrome 浏览器主页：&lt;a href=&quot;https://www.google.cn/chrome/&quot;&gt;https://www.google.cn/chrome/&lt;/a&gt;&lt;br&gt;参数:&lt;code&gt;standalone=1&lt;/code&gt; 指离线安装包，&lt;code&gt;platf</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>concise</title>
+    <link href="https://blog.lolifamily.js.org/project/post/2018/06/23/concise/"/>
+    <id>https://blog.lolifamily.js.org/project/post/2018/06/23/concise/</id>
+    <published>2018-06-22T21:13:54.000Z</published>
+    <updated>2021-12-11T08:11:24.212Z</updated>
+    
+    <content type="html"><![CDATA[<p>You can download my custom hexo theme here.</p><span id="more"></span><p><a href="/upload/concise.tar.gz">concise</a></p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;You can download my custom hexo theme here.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="hexo" scheme="https://blog.lolifamily.js.org/project/categories/hexo/"/>
+    
+    
+    <category term="concise" scheme="https://blog.lolifamily.js.org/project/tags/concise/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>MathJax Configuration</title>
+    <link href="https://blog.lolifamily.js.org/project/post/2018/06/23/mathjax/"/>
+    <id>https://blog.lolifamily.js.org/project/post/2018/06/23/mathjax/</id>
+    <published>2018-06-22T21:13:54.000Z</published>
+    <updated>2021-12-11T08:08:21.872Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Convert-from-Mathjax-v2-to-v3"><a href="#Convert-from-Mathjax-v2-to-v3" class="headerlink" title="Convert from Mathjax v2 to v3"></a>Convert from Mathjax v2 to v3</h2><p><a href="https://mathjax.github.io/MathJax-demos-web/convert-configuration/convert-configuration.html">https://mathjax.github.io/MathJax-demos-web/convert-configuration/convert-configuration.html</a></p><span id="more"></span><h2 id="My-MathJax-Configuration"><a href="#My-MathJax-Configuration" class="headerlink" title="My MathJax Configuration"></a>My MathJax Configuration</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line">window.MathJax = &#123;</span><br><span class="line">    tex: &#123;</span><br><span class="line">        inlineMath: [[&quot;$&quot;, &quot;$&quot;], [&quot;$$$&quot;, &quot;$$$&quot;]],</span><br><span class="line">        displayMath: [[&quot;$$&quot;, &quot;$$&quot;], [&quot;$$$$$$&quot;, &quot;$$$$$$&quot;]],</span><br><span class="line">        processEscapes: !0,</span><br><span class="line">        autoload: &#123;</span><br><span class="line">            color: [],</span><br><span class="line">            colorV2: [&quot;color&quot;]</span><br><span class="line">        &#125;,</span><br><span class="line">        packages: &#123;</span><br><span class="line">            &quot;[+]&quot;: [&quot;noerrors&quot;]</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;,</span><br><span class="line">    options: &#123;</span><br><span class="line">        skipHtmlTags: [&quot;script&quot;, &quot;noscript&quot;, &quot;style&quot;, &quot;textarea&quot;, &quot;pre&quot;, &quot;code&quot;],</span><br><span class="line">        ignoreHtmlClass: &quot;tex2jax_ignore&quot;,</span><br><span class="line">        processHtmlClass: &quot;tex2jax_process&quot;</span><br><span class="line">    &#125;,</span><br><span class="line">    loader: &#123;</span><br><span class="line">        load: [&quot;[tex]/noerrors&quot;]</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">&lt;h2 id=&quot;Convert-from-Mathjax-v2-to-v3&quot;&gt;&lt;a href=&quot;#Convert-from-Mathjax-v2-to-v3&quot; class=&quot;headerlink&quot; title=&quot;Convert from Mathjax v2 to v3&quot;&gt;&lt;/a&gt;Convert from Mathjax v2 to v3&lt;/h2&gt;&lt;p&gt;&lt;a href=&quot;https://mathjax.github.io/MathJax-demos-web/convert-configuration/convert-configuration.html&quot;&gt;https://mathjax.github.io/MathJax-demos-web/convert-configuration/convert-configuration.html&lt;/a&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="hexo" scheme="https://blog.lolifamily.js.org/project/categories/hexo/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>welcome</title>
+    <link href="https://blog.lolifamily.js.org/project/post/2018/04/26/welcome/"/>
+    <id>https://blog.lolifamily.js.org/project/post/2018/04/26/welcome/</id>
+    <published>2018-04-26T02:30:25.000Z</published>
+    <updated>2021-02-08T11:52:20.252Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+</feed>
