@@ -112,9 +112,9 @@
     
     
     <entry>
-      <title>categories</title>
-      <link href="/project/categories/index.html"/>
-      <url>/project/categories/index.html</url>
+      <title>friends</title>
+      <link href="/project/friends/index.html"/>
+      <url>/project/friends/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       
@@ -123,9 +123,9 @@
     
     
     <entry>
-      <title>friends</title>
-      <link href="/project/friends/index.html"/>
-      <url>/project/friends/index.html</url>
+      <title>categories</title>
+      <link href="/project/categories/index.html"/>
+      <url>/project/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
       

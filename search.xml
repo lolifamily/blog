@@ -125,17 +125,6 @@
     
     
     <entry>
-      <title>404</title>
-      <link href="/404.html"/>
-      <url>/404.html</url>
-      
-        <content type="html"><![CDATA[<h2 id="你是怎么进来的？"><a href="#你是怎么进来的？" class="headerlink" title="你是怎么进来的？"></a>你是怎么进来的？</h2>]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title></title>
       <link href="/vercel.json"/>
       <url>/vercel.json</url>
@@ -147,22 +136,33 @@
     
     
     <entry>
-      <title>关于我</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title>categories</title>
+      <link href="/categories/index.html"/>
+      <url>/categories/index.html</url>
       
-        <content type="html"><![CDATA[<p>咕咕咕</p>]]></content>
+        <content type="html"><![CDATA[]]></content>
       
     </entry>
     
     
     
     <entry>
-      <title>categories</title>
-      <link href="/categories/index.html"/>
-      <url>/categories/index.html</url>
+      <title>404</title>
+      <link href="/404.html"/>
+      <url>/404.html</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<h2 id="你是怎么进来的？"><a href="#你是怎么进来的？" class="headerlink" title="你是怎么进来的？"></a>你是怎么进来的？</h2>]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>关于我</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[<p>咕咕咕</p>]]></content>
       
     </entry>
     
