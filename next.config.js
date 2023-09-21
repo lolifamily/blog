@@ -15,20 +15,20 @@ const nextConfig = {
     async rewrites() {
         return {
             beforeFiles: [{
-                "source": "/oi/cdn-cgi/:path*",
-                "destination": "https://cf-blog-oi.lolifamily.js.org/non-exist-destination?path=:path*"
+                "source": "/oi/cdn-cgi/(.*)",
+                "destination": "https://cf-blog-oi.lolifamily.js.org/non-exist-destination?path=$1"
             },{
-                "source": "/project/cdn-cgi/:path*",
-                "destination": "https://cf-blog-project.lolifamily.js.org/non-exist-destination?path=:path*"
+                "source": "/project/cdn-cgi/(.*)",
+                "destination": "https://cf-blog-project.lolifamily.js.org/non-exist-destination?path=$1"
             },{
-                "source": "/cdn-cgi/:path*",
-                "destination": "https://cf-blog.lolifamily.js.org/non-exist-destination?path=:path*"
+                "source": "/cdn-cgi/(.*)",
+                "destination": "https://cf-blog.lolifamily.js.org/non-exist-destination?path=$1"
             },{
-                "source": "/oi/:path*",
-                "destination": "https://cf-blog-oi.lolifamily.js.org/:path*"
+                "source": "/oi/(.*)",
+                "destination": "https://cf-blog-oi.lolifamily.js.org/$1"
             },{
-                "source": "/project/:path*",
-                "destination": "https://cf-blog-project.lolifamily.js.org/:path*"
+                "source": "/project/(.*)",
+                "destination": "https://cf-blog-project.lolifamily.js.org/$1"
             },{
                 "source": "/(.*)",
                 "destination": "https://cf-blog.lolifamily.js.org/$1"
