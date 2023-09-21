@@ -2,7 +2,7 @@
 
 const nextConfig = {
     reactStrictMode: true,
-    trailingSlash: true,
+    skipTrailingSlashRedirect: true,
     async headers() {
         return [{
             "source": "/(.*)",
@@ -30,8 +30,8 @@ const nextConfig = {
                 "source": "/project/:path*",
                 "destination": "https://cf-blog-project.lolifamily.js.org/:path*"
             },{
-                "source": "/:path*",
-                "destination": "https://cf-blog.lolifamily.js.org/:path*"
+                "source": "/(.*)",
+                "destination": "https://cf-blog.lolifamily.js.org/$1"
             }]
         }
     },
