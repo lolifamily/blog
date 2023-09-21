@@ -2,7 +2,7 @@
 
 const nextConfig = {
     reactStrictMode: true,
-    skipTrailingSlashRedirect: true,
+    trailingSlash: true,
     async headers() {
         return [{
             "source": "/(.*)",
