@@ -2626,6 +2626,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "/home/charliez0/Desktop/rootfs/public/vercel/blog",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -2639,6 +2640,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="build" type="js.build_tools.npm" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -2648,7 +2661,9 @@
       <option name="presentableId" value="Default" />
       <updated>1695271611819</updated>
       <workItem from="1695271614193" duration="3769000" />
-      <workItem from="1695312459618" duration="1475000" />
+      <workItem from="1695312459618" duration="2082000" />
+      <workItem from="1695390005589" duration="774000" />
+      <workItem from="1695390790558" duration="205000" />
     </task>
     <servers />
   </component>

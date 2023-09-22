@@ -30,8 +30,8 @@ const nextConfig = {
                 "source": "/project/(.*)",
                 "destination": "https://cf-blog-project.lolifamily.js.org/$1"
             },{
-                "source": "/(.*)",
-                "destination": "https://cf-blog.lolifamily.js.org/$1"
+                "source": "/:path(.*)",
+                "destination": "https://cf-blog.lolifamily.js.org/:path"
             }]
         }
     },
